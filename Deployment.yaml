@@ -12,6 +12,8 @@ spec:
       labels:
         app: html-app
     spec:
+      imagePullSecrets:
+        - name: my-docker-secret  # This references the secret you created earlier
       containers:
       - name: html-container
         image: mohammedsafik/ci-cd
