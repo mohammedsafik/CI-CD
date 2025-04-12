@@ -16,7 +16,7 @@ spec:
         - name: my-docker-secret  # This references the secret you created earlier
       containers:
       - name: html-container
-        image: mohammedsafik/ci-cd
+        image: mohammedsafik/ci-cd:latest
         ports:
         - containerPort: 80
 ---
