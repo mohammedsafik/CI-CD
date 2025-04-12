@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: html-container
-        image: mohammedsafik/ci-cd:latest
+        image: mohammedsafik/ci-cd
         ports:
         - containerPort: 80
 ---
